@@ -2,12 +2,12 @@ def my_each(arr)
   if block_given?
     i = 0
  
-    while i < array.length
-      yield(array[i])
+    while i < arr.length
+      yield(arr[i])
       i = i + 1
     end
  
-    array
+    arr
   else
     puts "Hey! No block was given!"
   end
