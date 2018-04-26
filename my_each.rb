@@ -9,6 +9,6 @@ def my_each(arr)
  
     arr
   else
-    puts "Hey! No block was given!"
+    print "Hey! No block was given!"
   end
 end
